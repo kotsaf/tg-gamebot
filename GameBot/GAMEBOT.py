@@ -43,7 +43,7 @@ async def answer_question(message, state):
 
 
 
-
+# вторая игра
 '''GUESSGAME'''
 class Game2State(StatesGroup):
     waiting_for_guess = State()
