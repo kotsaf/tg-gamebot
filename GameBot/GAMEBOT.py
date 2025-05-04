@@ -13,7 +13,7 @@ dp = Dispatcher(bot, storage = MemoryStorage())
 
 
 
-
+# первая игра
 '''YES OR NO'''
 class Game1State(StatesGroup):
     waiting_for_question = State()
