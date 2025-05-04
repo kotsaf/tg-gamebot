@@ -86,7 +86,7 @@ async def handle_guess(message: types.Message, state: FSMContext):
 
 
 
-
+# третья игра
 '''FIND WORD'''
 
 class Game3State(StatesGroup):
