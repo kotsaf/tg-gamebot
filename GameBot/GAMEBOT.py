@@ -142,7 +142,7 @@ async def reply_find_game(message: types.Message, state: FSMContext):
 
 
 
-
+# команды
 '''DEF COMMANDS'''
 @dp.message_handler(text = 'Информация о боте\u2139')
 async def about_message(message: types.Message):
