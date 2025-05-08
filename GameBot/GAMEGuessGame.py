@@ -17,7 +17,7 @@ async def start_game(message: types.Message):
     await message.answer(text='Угадайте число от 1 до 100. У вас 6 попыток.')
     await Form.waiting_for_guess.set()  # Устанавливаем состояние ожидания
 
-    # Сохраним сгенерированное число и количество попыток в контексте
+    # cохраним сгенерированное число и количество попыток в контексте
     await dp.current_state(user=message.from_user.id).update_data(key_num=key_num, tries=6)
 
 @dp.message_handler(state=Form.waiting_for_guess)
