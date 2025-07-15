@@ -14,7 +14,7 @@ dp = Dispatcher(bot, storage = MemoryStorage())
 
 
 
-# первая игра
+# первая игра да или 
 '''YES OR NO'''
 class Game1State(StatesGroup):
     waiting_for_question = State()
